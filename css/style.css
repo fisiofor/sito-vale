@@ -1,0 +1,84 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 1.3em;
+}
+
+
+nav .brand-logo {
+  color: #ff8f00;
+  font-size: 2em;
+}
+nav ul a,
+nav .nav-opzioni {
+  color: #ff8f00;
+  font-size:1em;
+}
+
+nav .brand-logo {
+  font-family: 'Righteous', cursive;
+}
+.nav-wrapper {
+  padding: 0 50px;
+}
+
+
+
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+.col-servizio{
+  margin-top: 2rem;
+}
+
+.icon-block {
+  padding: 0 15px;
+  font-size:7em;
+}
+
+.servizio-icons {
+  font-size: 3em;
+}
+
+.col-contatti {
+  margin-top: 60px ;
+}
+
+
+}
+footer.page-footer {
+  margin: 0;
+}
